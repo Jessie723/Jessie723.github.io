@@ -1,18 +1,26 @@
+header{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+}
+h4{
+    text-align: center;
 
-
-
-
-main{
-    
-    background-color:aquamarine;
 }
 
+
+h2{
+    background-color:rgb(89, 199, 163);
+}
  
 
 
-
-
-nav {
+div{
+    background-color: aquamarine;
     
-
+}
+h5{
+    text-align: center;
+}
+nav{
+    
 }
