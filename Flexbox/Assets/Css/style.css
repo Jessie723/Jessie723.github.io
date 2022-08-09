@@ -1,0 +1,36 @@
+body {
+    height: 1500px;
+}
+
+
+nav {
+        background-color: rgb(185, 141, 225);
+        width: 100%;
+        padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    background-color:aquamarine;
+    padding: 5px;
+
+}
+
+ul {
+ display:flex;  
+}
+
+li {
+    padding: 10px;
+    list-style:none;
+}
+
+#Home{
+    margin-right:auto;
+}
+
+#About{
+    padding-left: 1;
+}
