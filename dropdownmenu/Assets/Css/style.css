@@ -1,0 +1,28 @@
+nav{
+    background-color: plum;
+}
+
+li{
+    padding: 10px;
+    list-style:none;
+}
+ul{
+    display:flex;
+}
+.dropdown-menu{
+    position: absolute;
+    width: 50%;
+    background-color: beige;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    padding-left:0%;
+    border: 2px solid black;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+}

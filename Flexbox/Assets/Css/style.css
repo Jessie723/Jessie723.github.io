@@ -20,6 +20,7 @@ a:hover{
 
 ul {
  display:flex;  
+ justify-content: flex-end;
 }
 
 li {
@@ -27,11 +28,19 @@ li {
     list-style:none;
 }
 
-#Home{
+#home{
     margin-right:auto;
 }
 
 #About{
    margin-left: auto;
     padding-left: 1;
+}
+
+@media only  screen and (max-width:768) {
+
+    ul{ 
+        flex-direction: column;
+
+    }
 }
