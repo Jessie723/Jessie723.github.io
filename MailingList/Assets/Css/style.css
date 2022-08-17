@@ -1,10 +1,12 @@
 form{
+    font-family: 'Aboreto', cursive;
     text-align: center;
     padding: 10px;
     background-image: url(../Imgs/marissa-rodriguez-2mKYEVGA4jE-unsplash.jpg);
 }
-h1,h6{
-   color: rgb(28, 143, 143);
+h1,h4{
+    font-family: 'Aboreto', cursive;
+    color: rgb(28, 143, 143);
     text-align: center;
 }
 body{
@@ -22,4 +24,11 @@ input:valid{
 }
 input:invalid{
     border: solid 2px red;
+}
+#button:hover{
+    background-color: rgb(126, 238, 238);
+    padding: 5px;
+}
+input{
+    padding: 4px;
 }
