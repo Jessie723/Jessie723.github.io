@@ -1,0 +1,21 @@
+form{
+    padding: 3px;
+    text-align: center;
+    background-image: url(../Imgs/mahdi-soheili-ei7zUkhk-PA-unsplash.jpg)  
+}
+label,h1{
+    text-align: center;
+    color:rgb(88, 138, 176)
+}
+body{
+    background-color: rgb(135, 221, 221);
+}
+label{
+    background-color: rgb(228, 232, 235);
+}
+input:valid{
+    border: solid 2px green;
+}
+input:invalid{
+    border: solid 2px red;
+}
