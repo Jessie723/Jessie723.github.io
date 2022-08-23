@@ -54,26 +54,31 @@
     <!-- DAY 1 STOP HERE -->
     <main>
       <!-- Image Grid -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carsousel-indicators">
+          <button type="button" dats-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../PorfolioTrmplate/img/aditya-visave-pfX0jrhah30-unsplash.jpg" alt="">
+            <img src="../PorfolioTrmplate/img/jo-photography-Z4NIuJRa-2g-unsplash.jpg" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../PorfolioTrmplate/img/jo-photography-Z4NIuJRa-2g-unsplash.jpg" alt="">
+            <img src="../PorfolioTrmplate/img/kai-cheng-MCptVsXIsPg-unsplash.jpg" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="../PorfolioTrmplate/img/kai-cheng-MCptVsXIsPg-unsplash.jpg" alt="">
+            <img src="../PorfolioTrmplate/img/monya-prinsloo-P5m02-uj71c-unsplash.jpg" class="d-block w-100" alt="">
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#caruselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>            
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-controll-next" type="button" data-bs-target="#carouseleExampleControls" data-bs-slide="next">
-          <span class="carousel-controll-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
       
       <!-- Make an 4x4 image grid above content cards using display:grid -->
@@ -171,5 +176,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>"https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
