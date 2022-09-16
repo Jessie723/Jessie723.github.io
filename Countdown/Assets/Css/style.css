@@ -1,0 +1,17 @@
+body{
+    margin: 400px;
+    justify-content: center;
+    background-image: url(/Countdown/Assets/Imgs/screamgh.jpeg);
+    
+
+
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color: rgba(231, 13, 13, 0.974);
+}
