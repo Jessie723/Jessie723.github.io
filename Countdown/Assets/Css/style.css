@@ -12,6 +12,8 @@ body{
     align-items: center;
 
 }
-h1{
-    color: rgba(231, 13, 13, 0.974);
+h1,title{
+    font-family: 'Creepster', cursive;
+    color: rgb(232, 7, 7);
 }
+
