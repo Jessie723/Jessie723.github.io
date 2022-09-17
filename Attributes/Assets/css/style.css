@@ -1,0 +1,15 @@
+#room {
+    border: 5px solid rgb(205, 144, 205);
+    position: relative;
+    
+}
+#ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    position: relative;
+    font-family: Verdana;
+    font-weight: bold;
+}
