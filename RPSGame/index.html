@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Assets/Css/style.css">
-    <title>Document</title>
-</head>
-<body>
+<html lang="en-US">
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link href="Assets/Css/style_v1.css" rel="stylesheet">
+    <link href="css/style_v2.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <div id="game">
+      <h3 id="selections">You picked <span id="yourPickText"></span>. I picked <span id="myPickText"></span>.</h3>
+      <h2 id="result"></h2>
+      <h4>Refresh the page to play again!</h4>
+    </div>
+    <div id="duel">
+      <div id="left">
+        <img id="rockLeft" src="images/RPS_RockL.png">
+        <img id="paperLeft" src="images/RPS_PaperL.png">
+        <img id="scissorsLeft" src="images/RPS_ScissorsL.png">
+      </div>
+      <div id="right">
+        <img id="rockRight" src="images/RPS_RockR.png">
+        <img id="paperRight" src="images/RPS_PaperR.png">
+        <img id="scissorsRight" src="images/RPS_ScissorsR.png">
+      </div>
+      
+    <script src="Assets/Js/logic.js"></script>
+    <script type="text/javascript">
+      playGame(PAPER);
+      /* Page-specific JavaScript Code goes here */
+
+      // Create variables to store references to the
+      // yourPickText, myPickText, and result elements by their ids
 
 
-    <script src="/RPSGame/Assets/Js/logic.js"></script>
-</body>
+      // Use the getRandomPick() function from your logic library
+      // to get random Rock Paper Scissors values for yourPick and myPick
+
+
+      // Set yourPick and myPick values in their corresponding element innerHTML
+      // Also set the return value of getResultText(yourPick, myPick)
+      // in the result element's innerHTML
+
+
+    </script>
+  </body>
 </html>
