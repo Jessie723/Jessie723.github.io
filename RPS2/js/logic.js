@@ -1,7 +1,3 @@
-// The 'const' keyword is an alternate way to create a variable compared to 'let'
-// The 'let' keyword will allow you to change a variable value later; however,
-// the 'const' keyword will cause an error if you try to change it Later.
-
 const ROCK = "ROCK";
 const PAPER = "PAPER";
 const SCISSORS = "SCISSORS";
@@ -74,4 +70,56 @@ function getResultText(computerPick, playerPick) {
    } else if (computerPick == SCISSORS && playerPick == ROCK) {
      return WIN;
    }
+}
+
+function playerGame(yourPick) {
+
+  let myPick = getRandomPick();
+
+
+  let rockLeft = document.getElementById("rockLeft");
+  let paperLeft = document.getElementById("paperLeft");
+  let ScissorsLeft = document.getElementById("scissorsLeft");
+  let rockRight = document.getElementById("rockRight");
+  let paperRight = document.getElementById("paperRight");
+  let scissorsRight = document.getElementById("scissorsRight");
+  let yourPickText = document.getElementById("yourPickText");
+  let myPickText = document.getElementById("myPickText");
+
+
+
+  yourPickText.innerHTML = yourPick;
+
+  switch(yourPick) {
+    case ROCK:
+       rockLeft.classList.add("selected");
+       break;
+     case PAPER:
+       paperLeft.classList.add("selected");
+        break;
+      case SCISSORS:
+        scissorsLeft.classList.add("selected");
+        break;
+  }
+
+
+  myPickText.innerHTML = myPick;
+
+  switch(myPick) {
+    case ROCK:
+      rockRight.classList.add("selected");
+      break;
+    case PAPER:
+      paperRight.classList.add("selected");
+      break;
+    case SCISSORS:
+      scissorsRight.classList.add("selected");
+      break;
+  }
+
+
+
+  let result = document.getElementById("result");
+
+  result.innerHTML = getResultText(myPick,yourPick);
 }
