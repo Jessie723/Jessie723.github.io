@@ -1,6 +1,6 @@
 // Get modal and Get Images
 let modal = document.getElementById("myModal");
-let images = documet.querySelectorAll(".images");
+let images = document.querySelectorAll(".images");
 
 // Get Image Box
 let imageBox = document.getElementById("modalImg");
