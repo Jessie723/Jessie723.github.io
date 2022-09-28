@@ -1,0 +1,37 @@
+nav{
+    background-color: rgb(69, 69, 69);
+}
+li{
+    padding: 30px;
+    list-style:none;
+}
+ul{
+    display: flex;
+}
+
+
+li{
+    color: rgb(255, 255, 255);
+    position: none;
+    text-align: left;
+    justify-content: left;
+    padding-left: 0%;
+}
+.search{
+    padding: 30px;
+    list-style: none;
+    position: none;
+}
+.grass{
+    width: 600px;
+    height: 300px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    
+}
+.hands{
+    width: 400px;
+    height: 300px;
+}
