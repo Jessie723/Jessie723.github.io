@@ -9,7 +9,10 @@ ul{
     display: flex;
 }
 
-
+li:hover{ 
+    background-color:green;
+    width: 38px;
+}
 li{
     color: rgb(255, 255, 255);
     position: none;
